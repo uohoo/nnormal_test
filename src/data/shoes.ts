@@ -380,19 +380,19 @@ export const shoes: Shoe[] = [
     images: [
       {
         label: "LF",
-        url: "https://cloud.nnormal.com/is/image/JGVzaG9wMDNtYmlnZ3JleSQ%3D/N2ZKM01-001_DF.jpg"
+        url: "https://cloud.nnormal.com/is/image/JGVzaG9wMDFwZHBzcXVhcmVncmV5bSQ%3D/N2ZKXM1-999-K001_01.jpg"
       },
       {
         label: "DF",
-        url: "https://cloud.nnormal.com/is/image/JGVzaG9wMDNtYmlnZ3JleSQ%3D/N2ZKM01-001_DF.jpg"
+        url: "https://cloud.nnormal.com/is/image/JGVzaG9wMDFwZHBzcXVhcmVncmV5bSQ%3D/N2ZKXM1-999-K001_01.jpg"
       },
       {
         label: "CF",
-        url: "https://cloud.nnormal.com/is/image/JGVzaG9wMDNtYmlnZ3JleSQ%3D/N2ZKM01-001_CF.jpg"
+        url: "https://cloud.nnormal.com/is/image/JGVzaG9wMDFwZHBzcXVhcmVncmV5bSQ%3D/N2ZKXM1-999-K001_01.jpg"
       },
       {
         label: "SF",
-        url: "https://cloud.nnormal.com/is/image/JGVzaG9wMDNtYmlnZ3JleSQ%3D/N2ZKM01-001_SF.jpg"
+        url: "https://cloud.nnormal.com/is/image/JGVzaG9wMDFwZHBzcXVhcmVncmV5bSQ%3D/N2ZKXM1-999-K001_01.jpg"
       }
     ],
     shopUrl: "https://www.nnormal.com/en_US/content/kboix",
