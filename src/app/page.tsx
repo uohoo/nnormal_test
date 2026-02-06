@@ -4,7 +4,24 @@ import { ShoeCard } from "@/components/ShoeCard";
 import { shoes } from "@/data/shoes";
 
 export default function HomePage() {
-  const featured = shoes.filter((shoe) => shoe.status !== "coming_soon").slice(0, 3);
+  const available = shoes.filter((shoe) => shoe.status !== "coming_soon");
+  const priorityById: Record<string, number> = {
+    "kjerag-02": 100,
+    "tomir-02-gtx": 100,
+    "kboix-01": 100,
+    "tomir-02": 90,
+    "kjerag-brut": 85,
+    "kjerag-01": 80
+  };
+
+  const featured = Array.from(new Set(available.map((shoe) => shoe.franchise)))
+    .map((franchise) => {
+      return available
+        .filter((shoe) => shoe.franchise === franchise)
+        .sort((a, b) => (priorityById[b.id] ?? 0) - (priorityById[a.id] ?? 0))[0];
+    })
+    .filter((shoe): shoe is (typeof shoes)[number] => Boolean(shoe))
+    .slice(0, 3);
 
   return (
     <div className="space-y-16 py-8 sm:py-10">
