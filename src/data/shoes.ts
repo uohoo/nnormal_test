@@ -380,7 +380,7 @@ export const shoes: Shoe[] = [
     images: [
       {
         label: "LF",
-        url: "https://cloud.nnormal.com/is/image/JGVzaG9wMDNtYmlnZ3JleSQ%3D/N2ZKM01-001_LF.jpg"
+        url: "https://cloud.nnormal.com/is/image/JGVzaG9wMDNtYmlnZ3JleSQ%3D/N2ZKM01-001_DF.jpg"
       },
       {
         label: "DF",
